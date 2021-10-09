@@ -27,4 +27,4 @@ Pull requestler kabul edilir. Büyük değişiklikler için, lütfen önce neyi 
 
 ## Secreenshot
 
-![Repo Screeenshot]()
+![Repo Screeenshot](https://github.com/sametkoyuncu/kodluyoruzilkrepo/blob/main/screenshots/screencapture-github-sametkoyuncu-kodluyoruzilkrepo-2021-10-09-16_07_15.png?raw=true)
