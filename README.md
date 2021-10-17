@@ -1,6 +1,6 @@
 # Kodluyoruz Ilk Repo
 
-Kodluyoruz Front-End Eğitimi kapsamında açtığım ilk repo. İçerisinde [patika.dev](patika.dev) sitesinde yaptığım ödevler var.
+Kodluyoruz Front-End Eğitimi kapsamında açtığım ilk repo. İçerisinde [patika.dev](patika.dev) eğitimleri kapsamında yaptığım ödevler var.
 
 ## Installation
 
