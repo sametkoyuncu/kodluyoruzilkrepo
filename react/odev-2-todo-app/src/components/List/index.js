@@ -14,6 +14,13 @@ function List({ todos, updateTodos }) {
     updateTodos([...todos])
   }
 
+  const deleteItem = (index) => {
+    todos[index].status = 'deleted'
+    const filteredTodos = todos.filter((item) => item.status !== 'deleted')
+    console.log(filteredTodos)
+    updateTodos([...filteredTodos])
+  }
+
   return (
     <section className="main">
       <input className="toggle-all" type="checkbox" />
@@ -56,7 +63,10 @@ function List({ todos, updateTodos }) {
                 type="checkbox"
               />
               <label>{item.task}</label>
-              <button className="destroy"></button>
+              <button
+                className="destroy"
+                onClick={() => deleteItem(index)}
+              ></button>
             </div>
           </li>
         ))}
