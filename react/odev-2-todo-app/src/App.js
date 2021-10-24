@@ -8,12 +8,18 @@ import Footer from './components/Footer'
 
 function App() {
   const [todos, setTodos] = useState([])
+  const [filterBy, setFilterBy] = useState('all')
   return (
     <div className="App">
       <section className="todoapp">
         <Header todos={todos} addTodo={setTodos} />
-        <List todos={todos} updateTodos={setTodos} />
-        <Footer todos={todos} />
+        <List todos={todos} updateTodos={setTodos} filterBy={filterBy} />
+        <Footer
+          todos={todos}
+          updateTodos={setTodos}
+          filterBy={filterBy}
+          updateFilterBy={setFilterBy}
+        />
       </section>
     </div>
   )
