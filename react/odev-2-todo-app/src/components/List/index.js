@@ -1,10 +1,11 @@
 import React from 'react'
 //This section should be hidden by default and shown when there are todos
 
+let checkToggleAllTodoStatus = false
 //is mean not pressed before
 // false -> true = check all
 // true -> false = uncheck all
-let checkToggleAllTodoStatus = false
+
 let toggleTodos = []
 
 function List({ todos, updateTodos, filterBy }) {
