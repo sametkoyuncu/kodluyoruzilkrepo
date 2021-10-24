@@ -1,3 +1,7 @@
+# todo-app screenshot
+
+![todo-app](https://github.com/sametkoyuncu/kodluyoruzilkrepo/blob/main/screenshots/react-odev-2-todo-list.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
