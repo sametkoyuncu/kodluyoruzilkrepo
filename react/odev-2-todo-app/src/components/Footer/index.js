@@ -1,12 +1,13 @@
 import React from 'react'
 
-function Footer() {
+function Footer({ todos }) {
+  const activeTodos = todos.filter((item) => item.status === 'active')
   return (
     <footer className="footer">
       {/*This footer should hidden by default and shown when there are todos*/}
       {/* This should be `0 items left` by default */}
       <span className="todo-count">
-        <strong>2</strong>
+        <strong>{activeTodos.length}</strong>
         &nbsp;items left
       </span>
       <ul className="filters">

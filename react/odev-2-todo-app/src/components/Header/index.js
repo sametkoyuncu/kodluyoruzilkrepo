@@ -11,7 +11,7 @@ function Header({ addTodo, todos }) {
     e.preventDefault()
     if (e.keyCode === 13) {
       console.log(e.target.value)
-      addTodo([...todos, todo])
+      addTodo([...todos, { task: todo, status: 'active' }])
       setTodo('')
     }
   }

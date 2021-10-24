@@ -12,8 +12,8 @@ function App() {
     <div className="App">
       <section className="todoapp">
         <Header todos={todos} addTodo={setTodos} />
-        <List todos={todos} />
-        <Footer />
+        <List todos={todos} updateTodos={setTodos} />
+        <Footer todos={todos} />
       </section>
     </div>
   )
