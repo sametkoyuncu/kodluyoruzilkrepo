@@ -19,7 +19,7 @@ function Header({ addTodo, todos }) {
   return (
     <header className="header">
       <h1>todos</h1>
-      <form>
+      <form action="#">
         <input
           className="new-todo"
           value={todo}

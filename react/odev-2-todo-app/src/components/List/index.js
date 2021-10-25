@@ -22,9 +22,8 @@ function List({ todos, updateTodos, filterBy }) {
   }
 
   const deleteItem = (e, index) => {
-    todos[index].status = 'deleted'
-    const filteredTodos = todos.filter((item) => item.status !== 'deleted')
-    updateTodos([...filteredTodos])
+    todos.splice(index, 1)
+    updateTodos([...todos])
   }
 
   const checkToggleAllTodo = (e) => {
