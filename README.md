@@ -2,6 +2,9 @@
 
 Kodluyoruz Front-End Eğitimi kapsamında açtığım ilk repo. İçerisinde [patika.dev](patika.dev) eğitimleri kapsamında yaptığım ödevler var.
 
+## My favorite project in this repository
+[TodoApp with React](https://github.com/sametkoyuncu/kodluyoruzilkrepo/tree/main/react/odev-2-todo-app)
+
 ## Installation
 
 Öncelikle projeyi clonelayın
