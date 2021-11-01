@@ -1,3 +1,6 @@
+# screenshot
+![weather app](https://github.com/sametkoyuncu/kodluyoruzilkrepo/blob/main/screenshots/react-odev-3-weather-app.png)
+
 # eksikler
 
 - context kullanılmadı.
