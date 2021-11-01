@@ -1,6 +1,6 @@
 # Kodluyoruz Ilk Repo
 
-Kodluyoruz Front-End Eğitimi kapsamında açtığım ilk repo. İçerisinde [patika.dev](patika.dev) eğitimleri kapsamında yaptığım ödevler var.
+Kodluyoruz Front-End Eğitimi kapsamında açtığım ilk repo. İçerisinde [patika.dev](patika.dev) eğitimlerinde yaptığım ödevler bulunuyor.
 
 ## My favorite projects in this repository
 - [TodoApp with React](https://github.com/sametkoyuncu/kodluyoruzilkrepo/tree/main/react/odev-2-todo-app)
