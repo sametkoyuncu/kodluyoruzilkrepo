@@ -4,9 +4,7 @@ Kodluyoruz Front-End Eğitimi kapsamında açtığım ilk repo. İçerisinde [pa
 
 ## My favorite projects in this repository
 [TodoApp with React](https://github.com/sametkoyuncu/kodluyoruzilkrepo/tree/main/react/odev-2-todo-app)
-![TodoApp with React](https://raw.githubusercontent.com/sametkoyuncu/kodluyoruzilkrepo/main/screenshots/react-odev-2-todo-list.png)
 [WeatherApp with React](https://github.com/sametkoyuncu/kodluyoruzilkrepo/tree/main/react/odev-3-weekly-weather-app)
-![WeatherApp with React](https://raw.githubusercontent.com/sametkoyuncu/kodluyoruzilkrepo/main/screenshots/react-odev-3-weather-app.png)
 
 ## Installation
 
